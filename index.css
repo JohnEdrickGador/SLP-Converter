@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #475c7a;
+}
+.container{
+    border: 3px solid #D8737F;
+    border-radius: 10px;
+    width: 50%;
+    float: center;
+    margin: auto;
+    margin-top: 20%;
+    display: grid;
+    grid-row-gap: 20px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-family: bebas neue;
+    color: white;
+}
+.SLPcount{
+    height:50px;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+.secondary-container{
+    align-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+label{
+    font-size: 20px;
+    color: white;
+    font-family: bebas neue;
+}
+.button-div{
+    display: grid;
+}
+.convert-button{
+    width: 50%;
+    height: 30px;
+    border: none;
+    justify-self: center;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #f18c8e;
+}
