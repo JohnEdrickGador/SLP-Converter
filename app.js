@@ -7,4 +7,3 @@ adder.addEventListener("click",addOne = () => {state += 1;
     console.log(state);
     number.textContent = state;
     });
-
