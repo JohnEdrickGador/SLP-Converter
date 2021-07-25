@@ -6,10 +6,10 @@ body{
 .container{
     border: 3px solid #D8737F;
     border-radius: 10px;
-    width: 50%;
+    width: 80%;
     float: center;
     margin: auto;
-    margin-top: 20%;
+    margin-top:10%;
     display: grid;
     grid-row-gap: 20px;
     padding: 20px;
@@ -23,12 +23,12 @@ h1{
     height:50px;
     border-radius: 10px;
     font-size: 18px;
-    
 }
 .secondary-container{
     align-content: space-between;
     display: grid;
     grid-template-columns: 50% 50%;
+    border: 1px solid greenyellow;
 }
 label{
     font-size: 20px;
