@@ -1,12 +1,16 @@
 body{
     margin: 0;
     box-sizing: border-box;
-    background-color: #475c7a;
+    /* background-color: #03254c; */
+    background-image: url('axie-background.jpg');
 }
 .container{
-    border: 3px solid #D8737F;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    backdrop-filter: blur(50px);
     border-radius: 10px;
-    width: 80%;
+    width: 40%;
+    height: 300px;
     float: center;
     margin: auto;
     margin-top:10%;
@@ -16,34 +20,51 @@ body{
 }
 h1{
     text-align: center;
-    font-family: bebas neue;
+    font-family: Google Sans;
     color: white;
+    font-size: 18px;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
 .SLPcount{
     height:50px;
+    width: 85%;
+    margin: auto;
     border-radius: 10px;
     font-size: 18px;
+    text-align: center;
+}
+.SLPcount::placeholder{
+    font-size: 15px;
+    text-align: center;
 }
 .secondary-container{
     align-content: space-between;
     display: grid;
+    width: 70%;
     grid-template-columns: 50% 50%;
-    border: 1px solid greenyellow;
+    margin: auto;
 }
 label{
     font-size: 20px;
     color: white;
     font-family: bebas neue;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 .button-div{
     display: grid;
+    justify-items: center;
 }
 .convert-button{
     width: 50%;
     height: 30px;
-    border: none;
-    justify-self: center;
+    border: 1px solid black;
     font-size: 18px;
     border-radius: 8px;
-    background-color: #f18c8e;
+}
+
+
+@media screen and (max-width:1500px){
+    .container{
+        width: 80%;
+    }
 }
